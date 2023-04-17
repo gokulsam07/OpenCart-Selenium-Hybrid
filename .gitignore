@@ -1,0 +1,4 @@
+/target/
+.settings
+Reports/
+test-output

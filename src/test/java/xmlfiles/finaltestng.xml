@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="tutorialsninja.utils.ProjectListener" />
+	</listeners>
+	<test name="OpenCartTest">
+		<classes>
+			<class name="com.tutorialsninja.tests.RegisterTest" />
+			<class name="com.tutorialsninja.tests.LoginTest" />
+			<class name="com.tutorialsninja.tests.SearchProduct" />
+
+		</classes>
+	</test>
+</suite> 
