@@ -19,7 +19,7 @@ public class InitializeBrowserAndOpenWebsite {
 	public Properties loadProperties() {
 		prop = new Properties();
 		try {
-			File file = new File("C:\\OpenCart\\tutorialsninja\\src\\test\\java\\browser\\setup\\config.properties");
+			File file = new File("C:\\tutorialsninja\\src\\test\\java\\browser\\setup\\config.properties");
 			FileInputStream fis = new FileInputStream(file);
 			prop.load(fis);
 		} catch (Exception e) {
@@ -31,7 +31,7 @@ public class InitializeBrowserAndOpenWebsite {
 	public Properties loadDataProperties() {
 		dataProp = new Properties();
 		try {
-			File file = new File("C:\\OpenCart\\tutorialsninja\\src\\test\\java\\testdata\\testdata.properties");
+			File file = new File("C:\\tutorialsninja\\src\\test\\java\\testdata\\testdata.properties");
 			FileInputStream fis = new FileInputStream(file);
 			dataProp.load(fis);
 		} catch (Exception e) {

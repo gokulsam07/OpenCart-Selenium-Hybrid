@@ -22,7 +22,7 @@ public class Reporter {
 
 		Properties prop = new Properties();
 		try {
-			File propFile = new File("C:\\OpenCart\\tutorialsninja\\src\\test\\java\\browser\\setup\\config.properties");
+			File propFile = new File("C:\\tutorialsninja\\src\\test\\java\\browser\\setup\\config.properties");
 			FileInputStream fis = new FileInputStream(propFile);
 			prop.load(fis);
 		} catch (Exception e) {
